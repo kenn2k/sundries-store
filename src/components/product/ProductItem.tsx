@@ -17,7 +17,7 @@ const ProductItem = (props: StoreType) => {
     );
   };
 
-  const formatted = `$${price.toFixed(2)}`;
+  const formatted = `$${price.toFixed(1)}`;
   return (
     <li className="col-span-1">
       <Card>
